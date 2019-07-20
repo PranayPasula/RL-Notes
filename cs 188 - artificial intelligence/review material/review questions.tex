@@ -51,7 +51,7 @@
 \end{enumerate}
 
 \section*{Lecture 9 - Markov Decision Processes II}
-\begin{enumerate}[resume*]
+\begin{enumerate}
 \item What is policy evaluation?
 \item What is a fixed policy?
 \item Explain two ways to find the values for a fixed policy.
@@ -77,15 +77,51 @@
 \item What is a multi-armed bandit?
 \item What kind of rewards do choices in the multi-armed bandit problem usually have? How does this affect the corresponding MDP?
 \item Explain how to find the optimal policy of a multi-armed bandit MDP given all of the details of the MDP. What is this called? State why this is advantageous to having only partial information of the MDP.
-\item Explain how to find the optimal policy of a multi-armed bandit MDP given only partial details of the MDP. What is this called?
-
-
-
-
+\item Explain how to find the optimal policy of a multi-armed bandit MDP given only partial details of the MDP. What is this called?\\
 \end{enumerate}
 
+\section*{Lecture 10 - Reinforcement Learning I}
 
+\begin{enumerate}
+\item Describe the basic feedback loop of reinforcement learning.
+\item What feedback is received by the agent?
+\item What is the goal of the agent?
+\item What does the agent learn from? \\
 
+\item What is the goal of reinforcement learning?
+\item How does a reinforcement learning problem differ from an MDP problem?\\
+
+\item What is model-based learning? Explain how to do it.
+\item How do the estimated values in model-based learning act as the number of experiences approaches infinity?
+\item What is a disadvantage of model-based learning?\\
+
+\item What is model-free learning?
+\item What is an advantage of model-free learning over model-based learning?\\
+
+\item What is passive reinforcement learning? What is the goal? How does this differ from offline planning?\\
+
+\item What is direct evaluation? What are its advantages and disadvantages? \\
+
+\item What is policy evaluation? Can we use it to solve the passive RL problem? Why or why not?\\
+
+\item What is sample-based policy evaluation? Why may it not be suitable to solve the passive RL problem?\\
+
+\item What is temporal difference learning? When do updates occur? How do updates occur? What info does this algorithm take into account that direct evaluation neglects?
+\item What type of average does temporal difference learning use? How does this average behave? How does the parameter of this average affect the behavior? How can we adjust this type of average to promote convergence?
+\item How does temporal difference learning relate to Bellman updates?
+\item What is the main problem with temporal difference learning? What should we do to avoid this? \\
+
+\item What is active reinforcement learning? What is its goal? 
+\item How does active RL differ from passive RL?
+\item What is the fundamental trade-off in active reinforcement learning?
+
+\item Why can't we use value iteration to solve the active RL problem?
+\item What is Q-value iteration? Why can't we use this to solve the active RL problem?
+\item What is Q-learning? How does it relate to temporal difference learning? What conditions are required for it to converge to the optimal policy?
+\item What is off-policy learning? Is Q-learning considered on-policy or off-policy? Explain why.\\
+\end{enumerate}
+
+\section*{Lecture 11 - Reinforcement Learning II}
 
 
 \end{document}
