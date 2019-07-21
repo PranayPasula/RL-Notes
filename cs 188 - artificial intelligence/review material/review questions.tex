@@ -4,12 +4,16 @@
 \setlist[enumerate]{itemsep=-1mm, leftmargin=!}
 
 %opening
-\title{CS 188 -- Artificial Intelligence Notes (for Reinforcement Learning)}
+\title{CS 188: Artificial Intelligence Notes (for Reinforcement Learning)}
 \author{Pranay Pasula}
 
 \begin{document}
 
 \maketitle
+
+\section*{Intro}
+The following questions test a basic understanding of Markov decision processes and reinforcement learning in the context of CS 188: Artificial Intelligence at UC Berkeley. \\\\
+Sorry for any typos. \\
 
 \section*{Lecture 8: Markov Decision Processes I}
 \begin{enumerate}
@@ -123,5 +127,28 @@
 
 \section*{Lecture 11 - Reinforcement Learning II}
 
+\begin{enumerate}
+	
+\item How does our representation of an RL problem compare to an MDP? What the goal in RL?
+\item Explain the methods used to solve for $V^{*}(s), Q^{*}(s),$ and $\pi^{*}(s)$ and to evaluate a fixed policy for an MDP. What type of learning is this?
+\item What are the two classes of methods used to solve for $V^{*}(s), Q^{*}(s),$ and $\pi^{*}(s)$ and to evaluate a fixed policy in an RL problem? What are the specific methods used to do both of these tasks? How do the two classes of methods compare to one another? What type of learning are these?\\
+
+\item What is Q-value iteration? What is Q-learning?\\
+
+\item What is the exploration versus exploitation trade-off?\\
+
+\item What is the simplest way to choose actions? What are the issues with this method?\\
+
+\item What is an exploration function? State a basic example of one. How does this affect the Q-value update?\\
+\item How does the bonus of a particular state affect the Q-values of other states?\\
+
+\item How is regret defined? Why isn't learning the optimal policy enough to minimize regret? How does the regret of random exploration ($\epsilon$-greedy) compare to the regret of exploration functions? Do these methods converge to a particular policy? If so, do they converge to the optimal policy?\\
+
+\item What is an issue with finding the exact Q-value for every state-action pair (I.e., $Q(s,a)$ for every $(s,a)$ possible)? Explain feature-based learning and how it addresses this issue. What is a $q$ function? What type of function is this? Name an advantage and a disadvantage of representing $Q(s,a)$ with a $q$ function. What class of Q-learning is feature-based learning? How is the learning process affected by using this class of Q-learning instead of finding exact Q-values for all of the state-action pairs. \\
+
+\item Explain approximate Q-learning. What is the mathematical justification for the update step involved? \\
+
+\item What is policy search? Why use it? In this context, what is the goal of Q-learning? What is the goal of action selection? What trade-off is involved between these two? What is the goal of policy search?
+\end{enumerate}
 
 \end{document}
